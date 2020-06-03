@@ -1,0 +1,32 @@
+.flexcontainerA {
+    display:flex;
+    justify-content: center;
+    border:1px solid black;
+    padding: 30px;
+}
+
+.flexcontainerB {
+    display:flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.flexcontainerC {
+    display:flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.flexcontainerD {
+    display:flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.flexitem {
+    padding: 30px;
+    border: 1px solid black;
+}
