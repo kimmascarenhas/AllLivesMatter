@@ -23,3 +23,54 @@
 }
 
 
+.flexcontainera {
+    display:flex;
+    justify-content: center;
+}
+
+.flexcontainerb {
+    display:flex;
+    justify-content: center;
+}
+
+.flexcontainerc {
+    display:flex;
+    justify-content: center;
+}
+
+.flexcontainerd {
+    display:flex;
+    justify-content: center;
+}
+
+.flexcontainere {
+    display:flex;
+    justify-content: center;
+}
+
+
+.flexitema {
+    display:flex;
+    justify-content: left;
+    padding-top: 30px;
+}
+
+.flexitemb {
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.flexitemc {
+    display:flex;
+    justify-content: right;
+    padding-top: 30px;
+}
+
+.flex-container {
+    -ms-box-orient: horizontal;
+}
+.wrap {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
