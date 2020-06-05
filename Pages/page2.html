@@ -1,5 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Diversity & Inclusion</title>
+        <link rel="stylesheet" href="../CSS/main.css">
+        <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    </head>
+
+    <header class="header" >
+        <h1 class="title"> Diversity & Inclusion</h1>
+        <img width=100px height=100px src="data:image/png;base64,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"> 
+    </header>
+   
+   
+    <body>
+        
+    <nav>
+    <div class="topnav">
+        <a class="active" href="..//index.html">Home</a>
+        <a href="../index.html#AboutUs">About Us</a>
+        <a href="#C&O">Charities and Organizations</a>
+        <a href="   ">Contact</a>
+      </div>
+    
+    </nav>
+        
+        <main>
+
+            <h2> Featured Charities and Organizations </h2>
+            <div id="C&O">  
+                <div class="line">
+                    <div class="item">
+                        <div class="Org" id="TheDiversityTrust">
+                        <img src="../IMG/TheDiversityTrust.png" alt="Org1"><br>
+                            <h4>The Diversity Trust UK</h4>
+                            <p>We are influencing social change to achieve a fairer and safer society</p>
+                            <a href="https://www.diversitytrust.org.uk/" >Read More</a>
+                        </div>
+                    </div>
+                    <br>
+            
+                    <div class="item">
+                        <div class="Org" id="CRER">
+                            <img width=200px src="https://static.wixstatic.com/media/7ec2e5_aa79550d5e5c4630ad5ffa79ad917e74~mv2.jpg/v1/fill/w_1024,h_545,al_c,q_85/7ec2e5_aa79550d5e5c4630ad5ffa79ad917e74~mv2.webp" alt="Org2"><br>
+                            <h4>Coalition for Racial Equality and Rights</h4>
+                            <p>We are focused on working to eliminate racial discrimination and harassment and promote racial justice across Scotland</p>
+                            <a href="https://www.crer.scot/" >Read More</a>
+                        </div>
+                    </div>
+                    <br>
+            
+                    <div class="item">
+                        <div class="Org" id="TheDisabilitiesTrust">
+                            <img src="https://www.thedtgroup.org/images/logo.png?width=122&height=90" alt="Org3"><br>
+                            <h4>The Disabilities Trust</h4>
+                            <p> We are a leading national charity offering specialist community-based and residential support for adults with acquired brain injury, complex physical or learning disabilities. </p>
+                            <a href="https://www.thedtgroup.org/" >Read More</a>
+                        </div>
+                    </div>
+                </div>
+<br>
+<br>
+                <div class="line">
+                    <div class="item">
+                        <div class="Org" id="LGBT Foundation">
+                        <img src="http://www.lgbt.foundation/_Content/images/logos/lgbt.png" width=160px alt="Org4"><br>
+                            <h4>LGBT Foundation</h4>
+                            <p>We believe in a fair and equal society where all LGBT people can achieve their full potential</p>
+                            <a href="http://www.lgbt.foundation/" >Read More</a>
+                        </div>
+                    </div>
+                    <br>
+            
+                    <div class="item">
+                        <div class="Org" id="AgeUK">
+                            <img width=200px src="https://www.ageuk.org.uk/globalassets/age-uk/media/logos/lll_logo_uk_with_strap.png" alt="Org5"><br>
+                            <h4>Age UK</h4>
+                            <p>We stand up and speak for all those who have reached later life, and also protect the long-term interests of future generations</p>
+                            <a href="https://www.ageuk.org.uk/" >Read More</a>
+                        </div>
+                    </div>
+                    <br>
+            
+                    <div class="item">
+                        <div class="Org" id="FawcettSociety">
+                            <img src="../IMG/FawcettSociety.png" width=250px alt="Org6"><br>
+                            <h4>Fawcett Society</h4>
+                            <p> Our vision is a society in which women and girls in all their diversity are equal and truly free to fulfill their potential creating a stronger, happier, better future for us all. </p>
+                            <a href="https://www.fawcettsociety.org.uk/" >Read More</a>
+                        </div>
+                    </div>
+                </div>
+    <br>
+    <br>
+                    <div class="line">
+                        <div class="item">
+                            <div class="Org" id="UnitetheUnion">
+                            <img src="../IMG/Unite.png" width=160px height=140px alt="Org7"><br>
+                                <h4>Unite the Union</h4>
+                                <p>Unite is the union for the 21st century, meeting the greatest challenges facing working people today</p>
+                                <a href="https://unitetheunion.org/" >Read More</a>
+                            </div>
+                        </div>
+                        <br>
+                
+                        <div class="item">
+                            <div class="Org" id="RaceEqualityFoundation">
+                                <img width=350px src="https://raceequalityfoundation.org.uk/wp-content/uploads/2017/11/ref-logo-02.png" alt="Org8"><br>
+                                <br>
+                                <br>
+                                <h4>Race Equality Foundation</h4>
+                                <p>We seek to explore discrimination and disadvantage, and use that knowledge to help overcome barriers and promote race equality in health, housing and social care.</p>
+                                <a href="https://raceequalityfoundation.org.uk/" >Read More</a>
+                            </div>
+                        </div>
+                        <br>
+                
+                        <div class="item">
+                            <div class="Org" id="Scope">
+                                <img src="https://www.scope.org.uk/imgs/logo.svg" width=250px alt="Org9"><br>
+                                <h4>Scope</h4>
+                                <p>  We provide practical information and emotional support when it's most needed and campaign relentlessly to create a fairer society.</p>
+                                <a href="https://www.scope.org.uk/" >Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <footer>&COPY;CFG 2020 Team Si-Ki-Ca</footer>
+
+            </div>
+
+
 
 </html>
