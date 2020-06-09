@@ -56,21 +56,25 @@
 .flexcontainera {
     display:flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .flexcontainerb {
     display:flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .flexcontainerc {
     display:flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .flexcontainerd {
     display:flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .flexcontainere {
@@ -82,7 +86,7 @@
 .flexitema {
     display:flex;
     justify-content: left;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .flexitemb {
@@ -97,6 +101,11 @@
     padding-top: 30px;
 }
 
+.flexitemd {
+    display:flex;
+    justify-content: right;
+    padding-top: 30px;
+}
 .flex-container {
     -ms-box-orient: horizontal;
 }
@@ -104,3 +113,6 @@
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+
+
+  
